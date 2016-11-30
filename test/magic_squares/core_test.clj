@@ -3,5 +3,5 @@
             [magic-squares.core :refer :all]))
 
 (deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+  (testing "Number of Parker squares"
+    (is (= 7 (count parker-squares)))))
