@@ -1,36 +1,20 @@
 # magic-squares
 
-FIXME: description
+Exploring magic squares in Clojure.
 
-## Installation
-
-Download from http://example.com/FIXME.
+A magic square is a square of numbers in which every row, every column, and both diagonals
+each sum to the same number. This repository is an exploration of algorithms for generating
+and checking magic squares using the Clojure programming language.
 
 ## Usage
 
-FIXME: explanation
+Use Leiningen or the Clojure REPL to run.
 
-    $ java -jar magic-squares-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+    $ lein run
 
 ## License
 
-Copyright © 2016 FIXME
+Copyright © 2016 William Dye
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
