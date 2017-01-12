@@ -36,8 +36,7 @@
 
 (defn magic-number
   "Returns the magic number associated with the given 3x3 magic square."
-  [[[a b c] & _] square]
-    {:pre [(check square)]}
+  [[[a b c] & _]]
     (+ a b c))
 
 ;; Trying Matt Parker's "extra magic" 2-digit 3x3 squares, where
